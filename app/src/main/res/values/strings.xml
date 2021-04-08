@@ -1,6 +1,6 @@
 <resources>
     <!-- General Strings -->
-    <string name="app_name">Quiz App</string>
+    <string name="app_name">SIT305 Quiz App</string>
     <string name="start">START</string>
     <string name="name_default">Enter Name</string>
     <string name="welcome_message">Welcome </string>
