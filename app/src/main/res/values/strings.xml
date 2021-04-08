@@ -1,0 +1,74 @@
+<resources>
+    <!-- General Strings -->
+    <string name="app_name">Quiz App</string>
+    <string name="start">START</string>
+    <string name="name_default">Enter Name</string>
+    <string name="welcome_message">Welcome </string>
+    <string name="next_button">Next</string>
+    <string name="submit_button">Submit</string>
+    <string name="input_error">Please select an option first!</string>
+    <string name="congrats">Congratulations</string>
+    <string name="score">YOUR SCORE:</string>
+    <string name="start_again">Take New Quiz</string>
+    <string name="error">Error</string>
+    <string name="finish">Finish</string>
+
+    <!-- Default Strings Prior To Update -->
+    <string name="question_1">Test question 1? </string>
+    <string name="question_1_title">Q1 title</string>
+    <string name="q1_a">A</string>
+    <string name="q1_b">B</string>
+    <string name="q1_c">C</string>
+    <string name="q1_answer">B</string>
+
+    <!-- Quiz Question Strings -->
+    <string-array name="questions">
+        <item>How many possible lifecycle states do Activities have?</item>
+        <item>Which of the following is NOT a ViewGroup layout parameter?</item>
+        <item>Which of the following is NOT a Button type?</item>
+        <item>When an Activity becomes partially hidden, what function
+            is called? What function is called when its no longer partially hidden?</item>
+        <item>What happens to the current activity when a user presses the back button on their
+            device?</item>
+    </string-array>
+
+    <string-array name="question_titles">
+        <item>Activity Lifecycle</item>
+        <item>ViewGroup</item>
+        <item>Buttons</item>
+        <item>Partially hidden</item>
+        <item>Back button</item>
+    </string-array>
+
+    <string-array name="button_a_answers">
+        <item>2</item>
+        <item>LinearLayout</item>
+        <item>Image Button</item>
+        <item>onPause() and onResume()</item>
+        <item>Activity is put onPause()</item>
+    </string-array>
+
+    <string-array name="button_b_answers">
+        <item>4</item>
+        <item>ConstraintLayout</item>
+        <item>Coloured Button</item>
+        <item>onStop() and onResume()</item>
+        <item>Activity is put onStop()</item>
+    </string-array>
+
+    <string-array name="button_c_answers">
+        <item>3</item>
+        <item>AbstractLayout</item>
+        <item>Radio Button</item>
+        <item>onPause() and onRestart()</item>
+        <item>Activity is destroyed</item>
+    </string-array>
+
+    <string-array name="answers">
+        <item>4</item>
+        <item>AbstractLayout</item>
+        <item>Coloured Button</item>
+        <item>onPause() and onResume()</item>
+        <item>Activity is destroyed</item>
+    </string-array>
+</resources>
